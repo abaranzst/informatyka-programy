@@ -1,0 +1,57 @@
+
+
+__________________________________________
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    int n, p; -utworzenie 2 zmiennych n i p, p oznacza dzielnik a n liczbę badaną
+    cout << "Podaj liczbe naturalna: ";
+    cin >> n; - wpisywanie zmiennej przez użytkownika
+    for (p=2; p<n; p++) - (p++ = p+1), 
+if(n % p == 0) - sprawdzenie podzielności liczby n przez dzielniki od 2 do n-1
+{
+cout << n << "jest liczba zlozona";
+    exit(0);   - jesli wyświetli "jest liczba zlozona" program sie zakonczy 
+}
+cout << n <<'jest liczba pierwsza";
+exit(0);
+}
+__________________________________________
+||||||||||||||||||||||||||||||||||||||||||
+
+________________________________________________________________________
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int i=2, n k;
+
+do
+{
+    
+    cout <<endl<<"podaj liczbe naturalna wieksza od 1 ";
+    cin >> n;
+    while (n%i!=0 && i<=n)
+        
+        i++'
+        if (i*i<=n)
+        cout <<n<< " jest liczba zlozona"<<endl;
+    else
+        cout <<n<< " jest liczba pierwsza"<<endl;
+    
+    cout << "wprowadzasz nowa liczbe?" 1-TAK, dowolny klawisz-NIE ";
+    cin >> k;
+    i=2;
+}
+while (k==1);
+cout <<endl<<"koniec programu";
+exit(0)
+}
+
+_________________________________________________________________________________
